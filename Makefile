@@ -10,7 +10,7 @@ webpack=node_modules/.bin/webpack
 
 #v=$(shell grep "\"version\"" ./package.json | egrep -o [0-9.]*)
 v=latest
-me=$(shell whoami)
+me=shivgupt
 
 # Input files
 js=$(shell find ./src -type f -name "*.js")
